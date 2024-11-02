@@ -190,20 +190,6 @@ Once the model is deployed, it will begin running on the NVIDIA Jetson in real-t
 - The **deep learning detection model** running on the Jetson will process these images to identify cones and other relevant track features.
 - **Output**: The detection results can be displayed on a screen connected to the car (if applicable) or saved to onboard storage for later analysis.
 
-### **6. Evaluating Performance During Track Testing**
-
-Monitor the detection model’s performance during track testing to ensure it meets real-time requirements:
-- **Precision and Efficiency**: Measure the detection precision in real-time to verify it matches the simulated results.
-- **Processing Speed**: Ensure that each frame is processed within the real-time constraints to avoid delays.
-- **Power Consumption**: Monitor the Jetson’s power usage, as onboard power is typically limited in Formula Student cars.
-
-### **7. Optimizing for Real-Time Performance**
-
-If the detection algorithm lags or misses cones, consider these optimization steps:
-- **Reduce Model Complexity**: Simplify the model or reduce the input resolution to speed up processing.
-- **Optimize CUDA Code**: Use GPU Coder’s options to further optimize the CUDA code for embedded use.
-- **Adjust Detection Threshold**: If too many false positives are detected, consider adjusting the detection threshold to improve precision.
-
 ---
 
 # How to run to verify the files i uploded:
