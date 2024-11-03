@@ -201,12 +201,12 @@ First download all the neccessary add on : Refer to ADDON file
 1. Open the "Train Detector" folder and run the "detector.mlx" file to create a new detector file.
 2. Move the 'yolov2ConeDetector' file to the main directory.
 
-[THIS STEP IS NOT NECCESSARY AS I ALREADY UPLODED YOLOV2CONEDETECTOR FILE. In case if you need try on your own : Now to train the yolo V2: the video lecture in the formula driverless workshop can be reffred and the same code can be used to train the data and i have also uploded that file "ConeDetector"]
+[THIS STEP IS NOT NECCESSARY AS I ALREADY UPLODED YOLOV2CONEDETECTOR FILE. In case if you need try on your own : Now to train the yolo V2: the video lecture in the formula driverless workshop can be referred and the same code can be used to train the data and i have also uploded that file "ConeDetector"]
 
 3. Open and run the "main.mlx" file.
   
 Once the skidpad is generated, neccessary alteration are requried to run, first change the skidpad to how it looks in the img. "Skidpad 1" and add matlab function and for the code refer the img. "Function" and then as you run make the neccssary changes to run the simulation: Configuring the Camera Block (Refer the steps i mentioned above in detail) and make sure vehType is set and threshold is set to 0.47.
-Later for constsnt velocity (refer the complete guide i have given above) and add constant block in connection to VelRef which yoy can notice in first line of img. "Skidpad 2"
+Later for constsnt velocity (refer the complete guide i have given above) and add constant block in connection to VelRef which can be noticed in first line of img. "Skidpad 2"
 
 Once all the changes have been made, run the simulation and will give you the output as same as video i uploded: "Output"
 
@@ -233,7 +233,7 @@ This project provides a practical simulation setup for object detection using th
    - GPU Coder Support Package for NVIDIA GPUs: [https://www.mathworks.com/hardware-support/nvidia-gpu.html](https://www.mathworks.com/hardware-support/nvidia-gpu.html)
 
 3. **Example on Deploying Deep Learning to NVIDIA Jetson and Other Hardware**  
-   - MathWorks offers examples and tutorials on how to deploy deep learning models using GPU Coder. These examples demonstrate using tools like YOLO and deploying them to NVIDIA hardware for real-time applications.
+   - MathWorks offers examples and tutorials on how to deploy deep learning models using GPU Coder. These examples demonstrate using tools like YOLO to NVIDIA hardware for real-time applications.
    - Example on Deploying Deep Learning on NVIDIA Jetson: [https://www.mathworks.com/help/gpucoder/examples/deploy-deep-learning-on-nvidia-gpu-hardware.html](https://www.mathworks.com/help/gpucoder/examples/deploy-deep-learning-on-nvidia-gpu-hardware.html)
 
 4. **MathWorks Video Tutorials on Vehicle Dynamics Blockset and Deep Learning with Simulink**  
