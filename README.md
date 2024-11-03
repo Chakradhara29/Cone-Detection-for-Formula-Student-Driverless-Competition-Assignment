@@ -250,7 +250,7 @@ This project provides a practical simulation setup for object detection using th
    - NVIDIA provides resources specifically for deploying AI and deep learning models on the Jetson platform. This includes information on supported frameworks, libraries, and CUDA optimization for embedded GPUs.
    - NVIDIA Jetson Developer Page: [https://developer.nvidia.com/embedded/jetson-developer](https://developer.nvidia.com/embedded/jetson-developer)
 
-7. **vivinvarshans Repository**  
+7. **vivinvarshan's Repository**  
    - Provides resources specifically for how to find neccessary add on and how to deploy them.
    - Page: [https://developer.nvidia.com/embedded/jetson-developer](https://github.com/vivinvarshans/Cone-Detection-MathWork-Assignment/tree/main)
 I would like to show my gradtitude to VIVIN, who personally hellped me on call with the neccessary add on and Skidpad test.
