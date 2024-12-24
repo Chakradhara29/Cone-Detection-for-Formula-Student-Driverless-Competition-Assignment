@@ -47,7 +47,7 @@ To enable object detection, add a virtual camera to the simulation environment. 
 3. Drag the **Simulation 3D Camera** block into your model.
 
 #### Configuring the Camera Block:
-- Set the **Mount Location** to an appropriate position on the vehicle (e.g., 'mountLoc','Roll bar center') to capture a clear view of the cones.
+- Set the **Mount Location** to an appropriate position on the vehicle (e.g., 'mountLoc','Roll bar center' and use simvehcile3) to capture a clear view of the cones.
 - Adjust the **Field of View** and **Resolution** to capture a wide enough area without losing image quality.
 - **Output**: The camera will output an image of the scene, which will be used as input to the object detection algorithm.
 
@@ -71,7 +71,7 @@ To detect cones in the 3D scene, you can use a deep learning model, such as **YO
    - Connect the camera output (the image) to the **Deep Learning Object Detector** block.
 
 3. **Set Detection Parameters**:
-   - Configure the **Detection Threshold** to a suitable level (e.g., 0.47 to filter low-confidence detections).
+   - Configure the **Detection Threshold** to a suitable level (e.g., 0.46 to filter low-confidence detections & set the no. of iterations to 250).
    - Set up the block to output bounding boxes and labels for detected objects.
 
 ### **5. Configuring Constant Velocity at 30 km/h**
